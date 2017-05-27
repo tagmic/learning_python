@@ -2,14 +2,9 @@ from PIL import Image
 im=Image.open('test.png')
 print(im.format,im.size,im.mode)
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
-########## prepare ##########
 
-# install mysql-connector-python:
-# pip3 install mysql-connector-python --allow-external mysql-connector-python
-
+# install pymysql
 import  pymysql.cursors
 from datetime import date, datetime, timedelta
 # change root password to yours:
