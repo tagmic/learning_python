@@ -1,0 +1,10 @@
+print('hello world');
+print ('300+500=',300+500);
+print(10/2);
+name=input('please input your name\n');
+print('你好',name);
+print ('I\'m ok.');
+print ('Are you OK');
+a=3>2;
+b=0>0;
+print (a or b);
